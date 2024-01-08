@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: https://devopshq.github.io
+Source: https://github.com/devopshq/artifactory
+
+Files: *
+Copyright: 2013-2021 The artifactory authors
+License: MIT
+

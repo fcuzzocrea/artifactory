@@ -1,0 +1,19 @@
+Source: dohq-artifactory
+Section: python
+Priority: optional
+Maintainer: Francescodario Cuzzocrea <bosconovic@gmail.com>
+Uploaders:
+ Francescodario Cuzzocrea <bosconovic@gmail.com>
+Build-Depends:
+ debhelper-compat (= 12)
+ , dh-python
+ , python3-all-dev
+ , python3-setuptools
+Standards-Version: 4.5.0
+Testsuite: autopkgtest-pkg-python
+Homepage: https://github.com/devopshq/artifactory
+
+Package: python3-dohq-artifactory
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}
+Description: dohq-artifactory is a Python client for Artifactory
